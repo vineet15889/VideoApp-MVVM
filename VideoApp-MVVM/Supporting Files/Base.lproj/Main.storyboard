@@ -52,7 +52,7 @@
                 </avPlayerViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mBo-7x-ZkX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1962" y="94"/>
+            <point key="canvasLocation" x="1870" y="94"/>
         </scene>
         <!--Base Navigation Controller-->
         <scene sceneID="sDR-Ue-P4h">

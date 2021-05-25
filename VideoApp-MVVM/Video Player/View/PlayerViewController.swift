@@ -20,8 +20,8 @@ class PlayerViewController: AVPlayerViewController {
     }
     
     func playVideo(url: URL) {
-        self.player? = AVPlayer(url: url)
-        //self.player?.replaceCurrentItem(with: AVPlayerItem(url: url))
+        self.player?.replaceCurrentItem(with: nil)
+        self.player?.replaceCurrentItem(with: AVPlayerItem(url: url))
         self.player?.play()
     }
     
@@ -30,6 +30,7 @@ class PlayerViewController: AVPlayerViewController {
         self.showsPlaybackControls = false
         videoGravity = .resizeAspectFill
     }
+    
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)

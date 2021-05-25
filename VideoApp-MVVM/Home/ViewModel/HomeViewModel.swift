@@ -18,7 +18,7 @@ class HomeViewModel{
             let responseModel = try jsonDecoder.decode([HomeDataModels].self, from: data)
             videoCategoryArray.append(contentsOf: responseModel)
             vc?.tableView.reloadData()
-            print(responseModel)
+            print("Got data")
         } catch {
             print("Error Accured")
         }
