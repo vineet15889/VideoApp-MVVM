@@ -39,7 +39,7 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryTableViewCell", for: indexPath) as! CategoryTableViewCell
         let videoCategoryModel = videoViewModel.videoArray[indexPath.row]
-//        cell.videoModel = videoCategoryModel
+        cell.HomeDataModels = videoCategoryModel
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
