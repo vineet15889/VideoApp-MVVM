@@ -10,14 +10,17 @@ import UIKit
 class CategoryTableViewCell: UITableViewCell {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
-    var HomeDataModels:HomeDataModels?{
+    var tableCellViewModel:TableCellViewModel?{
         didSet{
-            self.conFigureCell(videoCategoryModel: HomeDataModels!)
+            if let videoCategoryModel = tableCellViewModel?.categoryData{
+                self.conFigureCell(videoCategoryModel:videoCategoryModel)
+            }
         }
     }
     override func awakeFromNib() {
         super.awakeFromNib()
         self.collectionView.register(UINib(nibName: "VideoCollectionViewCell", bundle: .main), forCellWithReuseIdentifier: "VideoCollectionViewCell")
+        tableCellViewModel = TableCellViewModel()
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
     }
@@ -34,14 +37,17 @@ extension CategoryTableViewCell:UICollectionViewDelegate,UICollectionViewDataSou
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        (HomeDataModels?.nodes!.count)!
+        (tableCellViewModel?.categoryData?.nodes!.count)!
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "VideoCollectionViewCell", for: indexPath) as! VideoCollectionViewCell
         cell.thumbNail.image = nil
-        cell.videoURL = nil
-        cell.videoURL = HomeDataModels?.nodes![indexPath.row].video?.encodeUrl
+        let model = CollectionCellViewModel()
+        model.index = indexPath.row
+        model.categoryData = tableCellViewModel?.categoryData
+        model.vc = tableCellViewModel?.vc
+        cell.collectionCellViewModel = model
         return cell
     }
     

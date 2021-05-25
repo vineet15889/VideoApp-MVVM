@@ -7,7 +7,9 @@
 
 import UIKit
 import AVKit
+
 let imageCache = NSCache<NSString, AnyObject>()
+
 class VideoImageView: UIImageView {
     var videoUrl:String?
     func imageFormVideoUrl(urlStr:String){

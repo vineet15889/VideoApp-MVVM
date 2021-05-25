@@ -9,20 +9,20 @@ import UIKit
 
 class VideoCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var thumbNail: VideoImageView!
-    var index = 0
-    var videoURL:String?{
+    var collectionCellViewModel:CollectionCellViewModel?{
         didSet{
-            self.conFigureCell(url: videoURL ?? "")
+            if let videoCategoryModel = collectionCellViewModel?.categoryData?.nodes{
+                let index = collectionCellViewModel?.index
+                self.conFigureCell(url: videoCategoryModel[index!].video?.encodeUrl ?? "")
+            }
         }
     }
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        self.videoURL = nil
         self.thumbNail.image = nil
     }
     

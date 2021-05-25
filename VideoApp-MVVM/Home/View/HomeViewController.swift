@@ -10,11 +10,11 @@ import UIKit
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    var videoViewModel = HomeViewModel()
+    var homeViewModel = HomeViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
-        videoViewModel.getData()
-        videoViewModel.vc = self
+        homeViewModel.getData()
+        homeViewModel.vc = self
         self.setupUI()
         
     }
@@ -34,12 +34,13 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return videoViewModel.videoArray.count
+        return homeViewModel.videoCategoryArray.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryTableViewCell", for: indexPath) as! CategoryTableViewCell
-        let videoCategoryModel = videoViewModel.videoArray[indexPath.row]
-        cell.HomeDataModels = videoCategoryModel
+        let videoCategoryModel = homeViewModel.videoCategoryArray[indexPath.row]
+        cell.tableCellViewModel?.categoryData = videoCategoryModel
+        cell.tableCellViewModel?.vc = self
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
