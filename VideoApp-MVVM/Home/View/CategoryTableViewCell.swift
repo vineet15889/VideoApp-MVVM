@@ -51,6 +51,15 @@ extension CategoryTableViewCell:UICollectionViewDelegate,UICollectionViewDataSou
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "PlayerViewController") as! PlayerViewController
+        let model = PlayerViewModel()
+        model.categoryData = tableCellViewModel?.categoryData
+        model.baseIndex = indexPath.row
+        nextViewController.playerViewModel = model
+        self.tableCellViewModel?.vc?.navigationController?.pushViewController(nextViewController, animated: true)
+    }
 }
 
 extension CategoryTableViewCell:UICollectionViewDelegateFlowLayout{

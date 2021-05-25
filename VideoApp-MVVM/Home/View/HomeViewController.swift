@@ -25,6 +25,7 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
     func setupUI(){
         self.title = "Explore"
         tableView.register(UINib(nibName: "CategoryTableViewCell", bundle: nil), forCellReuseIdentifier: "CategoryTableViewCell")
+        self.navigationItem.backButtonTitle = ""
     }
     
     
