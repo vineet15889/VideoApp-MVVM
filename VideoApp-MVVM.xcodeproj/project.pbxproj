@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		08F548BA265CBA40007BB4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548B9265CBA40007BB4C9 /* AppDelegate.swift */; };
 		08F548BC265CBA40007BB4C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548BB265CBA40007BB4C9 /* SceneDelegate.swift */; };
-		08F548BE265CBA40007BB4C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548BD265CBA40007BB4C9 /* ViewController.swift */; };
+		08F548BE265CBA40007BB4C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548BD265CBA40007BB4C9 /* HomeViewController.swift */; };
 		08F548C1265CBA40007BB4C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F548BF265CBA40007BB4C9 /* Main.storyboard */; };
 		08F548C3265CBA47007BB4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08F548C2265CBA47007BB4C9 /* Assets.xcassets */; };
 		08F548C6265CBA47007BB4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08F548C4265CBA47007BB4C9 /* LaunchScreen.storyboard */; };
 		08F548D1265CBA48007BB4C9 /* VideoApp_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548D0265CBA48007BB4C9 /* VideoApp_MVVMTests.swift */; };
 		08F548DC265CBA48007BB4C9 /* VideoApp_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548DB265CBA48007BB4C9 /* VideoApp_MVVMUITests.swift */; };
+		08F548F8265CBC2D007BB4C9 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = 08F548F7265CBC2D007BB4C9 /* assignment.json */; };
+		08F548F9265CBC2D007BB4C9 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = 08F548F7265CBC2D007BB4C9 /* assignment.json */; };
+		08F548FA265CBC2D007BB4C9 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = 08F548F7265CBC2D007BB4C9 /* assignment.json */; };
+		08F54902265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F54901265CBD1C007BB4C9 /* HomeDataModels.swift */; };
+		08F54903265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F54901265CBD1C007BB4C9 /* HomeDataModels.swift */; };
+		08F54904265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F54901265CBD1C007BB4C9 /* HomeDataModels.swift */; };
+		08F5490C265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5490B265CBDB7007BB4C9 /* HomeViewModel.swift */; };
+		08F5490D265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5490B265CBDB7007BB4C9 /* HomeViewModel.swift */; };
+		08F5490E265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F5490B265CBDB7007BB4C9 /* HomeViewModel.swift */; };
+		08F5492A265CBEEE007BB4C9 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F54928265CBEEE007BB4C9 /* CategoryTableViewCell.swift */; };
+		08F5492B265CBEEE007BB4C9 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F54928265CBEEE007BB4C9 /* CategoryTableViewCell.swift */; };
+		08F5492C265CBEEE007BB4C9 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F54928265CBEEE007BB4C9 /* CategoryTableViewCell.swift */; };
+		08F5492D265CBEEE007BB4C9 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F54929265CBEEE007BB4C9 /* CategoryTableViewCell.xib */; };
+		08F5492E265CBEEE007BB4C9 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F54929265CBEEE007BB4C9 /* CategoryTableViewCell.xib */; };
+		08F5492F265CBEEE007BB4C9 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08F54929265CBEEE007BB4C9 /* CategoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +53,7 @@
 		08F548B6265CBA3F007BB4C9 /* VideoApp-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VideoApp-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F548B9265CBA40007BB4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08F548BB265CBA40007BB4C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08F548BD265CBA40007BB4C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08F548BD265CBA40007BB4C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08F548C0265CBA40007BB4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08F548C2265CBA47007BB4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08F548C5265CBA47007BB4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,11 @@
 		08F548D7265CBA48007BB4C9 /* VideoApp-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VideoApp-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F548DB265CBA48007BB4C9 /* VideoApp_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoApp_MVVMUITests.swift; sourceTree = "<group>"; };
 		08F548DD265CBA48007BB4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F548F7265CBC2D007BB4C9 /* assignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assignment.json; sourceTree = "<group>"; };
+		08F54901265CBD1C007BB4C9 /* HomeDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModels.swift; sourceTree = "<group>"; };
+		08F5490B265CBDB7007BB4C9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		08F54928265CBEEE007BB4C9 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		08F54929265CBEEE007BB4C9 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,8 @@
 		08F548B8265CBA3F007BB4C9 /* VideoApp-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				08F548B9265CBA40007BB4C9 /* AppDelegate.swift */,
-				08F548BB265CBA40007BB4C9 /* SceneDelegate.swift */,
-				08F548BD265CBA40007BB4C9 /* ViewController.swift */,
-				08F548BF265CBA40007BB4C9 /* Main.storyboard */,
-				08F548C2265CBA47007BB4C9 /* Assets.xcassets */,
-				08F548C4265CBA47007BB4C9 /* LaunchScreen.storyboard */,
-				08F548C7265CBA47007BB4C9 /* Info.plist */,
+				08F548F4265CBBE9007BB4C9 /* Home */,
+				08F548EC265CBB7F007BB4C9 /* Supporting Files */,
 			);
 			path = "VideoApp-MVVM";
 			sourceTree = "<group>";
@@ -126,6 +141,56 @@
 				08F548DD265CBA48007BB4C9 /* Info.plist */,
 			);
 			path = "VideoApp-MVVMUITests";
+			sourceTree = "<group>";
+		};
+		08F548EC265CBB7F007BB4C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08F548B9265CBA40007BB4C9 /* AppDelegate.swift */,
+				08F548BB265CBA40007BB4C9 /* SceneDelegate.swift */,
+				08F548BF265CBA40007BB4C9 /* Main.storyboard */,
+				08F548C2265CBA47007BB4C9 /* Assets.xcassets */,
+				08F548C4265CBA47007BB4C9 /* LaunchScreen.storyboard */,
+				08F548C7265CBA47007BB4C9 /* Info.plist */,
+				08F548F7265CBC2D007BB4C9 /* assignment.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08F548F3265CBBCE007BB4C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08F54901265CBD1C007BB4C9 /* HomeDataModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08F548F4265CBBE9007BB4C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08F548F3265CBBCE007BB4C9 /* Model */,
+				08F548F5265CBBF6007BB4C9 /* View */,
+				08F548F6265CBBFD007BB4C9 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		08F548F5265CBBF6007BB4C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08F548BD265CBA40007BB4C9 /* HomeViewController.swift */,
+				08F54928265CBEEE007BB4C9 /* CategoryTableViewCell.swift */,
+				08F54929265CBEEE007BB4C9 /* CategoryTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08F548F6265CBBFD007BB4C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08F5490B265CBDB7007BB4C9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F548F8265CBC2D007BB4C9 /* assignment.json in Resources */,
+				08F5492D265CBEEE007BB4C9 /* CategoryTableViewCell.xib in Resources */,
 				08F548C6265CBA47007BB4C9 /* LaunchScreen.storyboard in Resources */,
 				08F548C3265CBA47007BB4C9 /* Assets.xcassets in Resources */,
 				08F548C1265CBA40007BB4C9 /* Main.storyboard in Resources */,
@@ -241,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F548F9265CBC2D007BB4C9 /* assignment.json in Resources */,
+				08F5492E265CBEEE007BB4C9 /* CategoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +317,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08F548FA265CBC2D007BB4C9 /* assignment.json in Resources */,
+				08F5492F265CBEEE007BB4C9 /* CategoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08F548BE265CBA40007BB4C9 /* ViewController.swift in Sources */,
+				08F548BE265CBA40007BB4C9 /* HomeViewController.swift in Sources */,
+				08F54902265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */,
 				08F548BA265CBA40007BB4C9 /* AppDelegate.swift in Sources */,
+				08F5490C265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */,
 				08F548BC265CBA40007BB4C9 /* SceneDelegate.swift in Sources */,
+				08F5492A265CBEEE007BB4C9 /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +343,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F548D1265CBA48007BB4C9 /* VideoApp_MVVMTests.swift in Sources */,
+				08F5490D265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */,
+				08F54903265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */,
+				08F5492B265CBEEE007BB4C9 /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +354,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F548DC265CBA48007BB4C9 /* VideoApp_MVVMUITests.swift in Sources */,
+				08F5490E265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */,
+				08F54904265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */,
+				08F5492C265CBEEE007BB4C9 /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H39RMB9UU;
-				INFOPLIST_FILE = "VideoApp-MVVM/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp-MVVM/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +537,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9H39RMB9UU;
-				INFOPLIST_FILE = "VideoApp-MVVM/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/VideoApp-MVVM/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
