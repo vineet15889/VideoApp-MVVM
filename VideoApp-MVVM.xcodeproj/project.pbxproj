@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081293B4265E04E600246008 /* SimpleOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081293B3265E04E600246008 /* SimpleOver.swift */; };
+		081293B5265E04E600246008 /* SimpleOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081293B3265E04E600246008 /* SimpleOver.swift */; };
+		081293B6265E04E600246008 /* SimpleOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081293B3265E04E600246008 /* SimpleOver.swift */; };
 		08F548BA265CBA40007BB4C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548B9265CBA40007BB4C9 /* AppDelegate.swift */; };
 		08F548BC265CBA40007BB4C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548BB265CBA40007BB4C9 /* SceneDelegate.swift */; };
 		08F548BE265CBA40007BB4C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F548BD265CBA40007BB4C9 /* HomeViewController.swift */; };
@@ -77,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081293B3265E04E600246008 /* SimpleOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleOver.swift; sourceTree = "<group>"; };
 		08F548B6265CBA3F007BB4C9 /* VideoApp-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VideoApp-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F548B9265CBA40007BB4C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08F548BB265CBA40007BB4C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -218,6 +222,7 @@
 				08F548BD265CBA40007BB4C9 /* HomeViewController.swift */,
 				08F54945265CC0CA007BB4C9 /* BaseNavigationController.swift */,
 				08F5493E265CC08F007BB4C9 /* VideoImageView.swift */,
+				081293B3265E04E600246008 /* SimpleOver.swift */,
 				08F54928265CBEEE007BB4C9 /* CategoryTableViewCell.swift */,
 				08F54929265CBEEE007BB4C9 /* CategoryTableViewCell.xib */,
 				08F54933265CC056007BB4C9 /* VideoCollectionViewCell.swift */,
@@ -410,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F54935265CC056007BB4C9 /* VideoCollectionViewCell.swift in Sources */,
+				081293B4265E04E600246008 /* SimpleOver.swift in Sources */,
 				08F548BE265CBA40007BB4C9 /* HomeViewController.swift in Sources */,
 				08F54902265CBD1C007BB4C9 /* HomeDataModels.swift in Sources */,
 				08F5496F265CDA2F007BB4C9 /* PlayerModel.swift in Sources */,
@@ -432,6 +438,7 @@
 			files = (
 				08F548D1265CBA48007BB4C9 /* VideoApp_MVVMTests.swift in Sources */,
 				08F54970265CDA2F007BB4C9 /* PlayerModel.swift in Sources */,
+				081293B5265E04E600246008 /* SimpleOver.swift in Sources */,
 				08F54947265CC0CA007BB4C9 /* BaseNavigationController.swift in Sources */,
 				08F54958265CC9A5007BB4C9 /* CollectionCellViewModel.swift in Sources */,
 				08F5490D265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */,
@@ -451,6 +458,7 @@
 			files = (
 				08F548DC265CBA48007BB4C9 /* VideoApp_MVVMUITests.swift in Sources */,
 				08F54971265CDA2F007BB4C9 /* PlayerModel.swift in Sources */,
+				081293B6265E04E600246008 /* SimpleOver.swift in Sources */,
 				08F54948265CC0CA007BB4C9 /* BaseNavigationController.swift in Sources */,
 				08F54959265CC9A5007BB4C9 /* CollectionCellViewModel.swift in Sources */,
 				08F5490E265CBDB7007BB4C9 /* HomeViewModel.swift in Sources */,

@@ -11,10 +11,12 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     var homeViewModel = HomeViewModel()
+    let simpleOver = SimpleOver()
     override func viewDidLoad() {
         super.viewDidLoad()
         homeViewModel.getData()
         homeViewModel.vc = self
+        navigationController?.delegate = self
         self.setupUI()
         
     }
@@ -48,7 +50,18 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
         return self.view.bounds.width / 1.5
     }
     
-    
+}
+
+extension HomeViewController:UIViewControllerTransitioningDelegate, UINavigationControllerDelegate {
+    func navigationController(
+            _ navigationController: UINavigationController,
+        animationControllerFor operation: UINavigationController.Operation,
+            from fromVC: UIViewController,
+            to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+            
+            simpleOver.popStyle = (operation == .pop)
+            return simpleOver
+        }
 }
 
 
